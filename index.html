@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix - TailwindCSS Clone</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <header class="px-24 py-5">
+      <nav class="flex justify-between items-center">
+        <a href="./index.html" class="text-white text-4xl font-normal">
+          Netflix
+        </a>
+        <button
+          class="bg-red-500 py-1 px-2 rounded-md text-white textsm font-bold"
+        >
+          Sign In
+        </button>
+      </nav>
+
+      <div class="flex justify-center mt-32">
+        <div class="w-1/2">
+          <h1 class="text-white text-center text-5xl font-bold leading-tight">
+            Unlimited movies, TV shows, and more
+          </h1>
+          <h4 class="text-2xl text-white text-center mt-2">
+            Starts at US$2.99. Cancel anytime.
+          </h4>
+          <p class="text-center text-slate-100 mt-10">
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </p>
+          <div class="mt-2 flex justify-center">
+            <div>
+              <input
+                class="border border-white text-white py-3 px-5 w-90 rounded-md mr-1"
+                type="email"
+                placeholder="Email Address"
+              />
+              <button
+                class="bg-red-500 py-3 px-5 rounded-md text-white textsm font-bold text-xl"
+              >
+                Get Started >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
